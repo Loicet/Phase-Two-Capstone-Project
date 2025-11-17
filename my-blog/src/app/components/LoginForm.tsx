@@ -77,7 +77,7 @@ export const LoginForm: React.FC = () => {
       </Button>
 
       <p className="text-center text-muted-foreground">
-        Don't have an account?{' '}
+        Do not have an account?{' '}
         <Link href="/signup" className="text-primary font-semibold hover:underline">
           Sign up
         </Link>
