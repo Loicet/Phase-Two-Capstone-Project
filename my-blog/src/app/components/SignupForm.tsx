@@ -64,7 +64,7 @@ export const SignupForm: React.FC = () => {
         label="Full Name"
         type="text"
         name="name"
-        placeholder="John Doe"
+        placeholder=""
         value={formData.name}
         onChange={handleChange}
         error={errors.name}
@@ -73,7 +73,7 @@ export const SignupForm: React.FC = () => {
         label="Email"
         type="email"
         name="email"
-        placeholder="you@example.com"
+        placeholder=""
         value={formData.email}
         onChange={handleChange}
         error={errors.email}
@@ -82,7 +82,7 @@ export const SignupForm: React.FC = () => {
         label="Password"
         type="password"
         name="password"
-        placeholder="••••••••"
+        placeholder=""
         value={formData.password}
         onChange={handleChange}
         error={errors.password}
@@ -91,7 +91,7 @@ export const SignupForm: React.FC = () => {
         label="Confirm Password"
         type="password"
         name="confirmPassword"
-        placeholder="••••••••"
+        placeholder=""
         value={formData.confirmPassword}
         onChange={handleChange}
         error={errors.confirmPassword}
