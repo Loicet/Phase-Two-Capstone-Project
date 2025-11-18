@@ -1,7 +1,7 @@
 'use client';
 
-import DashboardHeader from '@/components/DashboardHeader';
-import { Button } from '@/components/ui/button';
+import DashboardHeader from '../../components/dashboardHeader';
+import { Button } from '../../components/ui/Button';
 import { useState } from 'react';
 import Link from 'next/link';
 
